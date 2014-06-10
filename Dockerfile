@@ -8,3 +8,5 @@ RUN \
   cd ruby-install-0.4.3/ && \
   make install && \
   ruby-install -i /usr/local ruby 2.1.2
+
+RUN gem install bundler
